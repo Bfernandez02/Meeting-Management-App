@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/new_meetingTool"
+        android:id="@+id/newMeeting"
+        app:showAsAction="never"/>
+    <item
+        android:title="@string/contacts"
+        android:id="@+id/contacts"
+        app:showAsAction="never"/>
+    <item
+        android:title="@string/push_today_s_meetings"
+        android:id="@+id/pushToday"
+        app:showAsAction="never"/>
+    <item
+        android:title="@string/clear_today_s_meetings"
+        android:id="@+id/clearToday"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="@string/clear_all_meetings"
+        android:id="@+id/clearAll"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="@string/clear_expired_meetings"
+        android:id="@+id/clearExpired"
+        app:showAsAction="never"/>
+
+</menu>
